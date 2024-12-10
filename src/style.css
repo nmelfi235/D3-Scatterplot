@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(0deg, blue, black);
+}
+
+h1 {
+  color: white;
+  text-decoration: underline;
+}
+
+#github-icon {
+  color: white;
+  margin-left: 15px;
+}
+
+#github-icon:hover {
+  cursor: pointer;
+  color: purple;
+}
+
+#tooltip {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 4px;
+  margin-left: 8px;
+  border-radius: 4%;
+  box-shadow: 2px;
+  width: 300px;
+}
+
+#graph {
+  background-color: white;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  box-shadow: 3px;
+  border-radius: 1%;
+  width: 720px;
+  height: 500px;
+  margin: 30px 30px 40px 30px;
+}
+
+.dot {
+  opacity: 0.75;
+  border: 1px solid black;
+  stroke: black;
+}
